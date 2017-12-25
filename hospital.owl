@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.richardcook.me.uk/coursework/comp6215/hospital"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.richardcook.me.uk/coursework/comp6215/hospital">
+    <Prefix name="" IRI="http://www.richardcook.me.uk/coursework/comp6215/hospital#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2afec30f_3b44_4d20_88a3_ba246f13e93b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c7d2222d_7074_4bf9_bb1e_5ab08cd12343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8539f6d8_08be_41a7_aed4_b689346530c1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_36d5aff1_f0c1_4991_b92b_a1d17275a703"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_bf55b791_8245_46a0_b29b_a23e04f89c8b"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_63556802_6897_4965_b231_ce0e287ac68d"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_87d4bdc3_f8e6_411c_bf16_9157a6dc1f6f"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1131a436_ee9b_44ef_9656_9dcf4c3dd847"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_17481d08_f09b_4956_8e17_f0442351ccbb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_afb62c2a_d48f_44f7_af6e_79a6a5350c9a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_273f59f6_ba48_4b7e_a62f_8c57fdfc4734"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_658a8df6_c5da_4751_b4b3_be34bd356b89"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_5d16aebb_73b7_4cb4_965f_7c2b3234fffd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_fb152b91_f47c_44c8_9ef0_c71c91f8d43f"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1a33b406_5dc0_4f5c_9fc5_e4edb4ca76fb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_86d00484_365a_4bbe_b69c_c1049443001c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_bb03a368_4b9d_42c4_a5ae_fc24f27e419b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_52c12e39_fb0c_4f53_a2fd_2c074ab9b412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_cad36294_ba5f_4a4d_85a6_e781fd409fc0"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b93c4bbe_d03d_46e0_87c5_fb743aa3a099"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_c67121ae_fd80_4d67_a9ac_21e2f8401c33"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_7f87a3a5_2c01_4037_abeb_d20602f60c38"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1593b464_867e_43f2_8970_dff9e3f295f5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d987a24b_f27d_446b_99e3_18aea9eb6aa6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_928e5494_1279_4223_a1f8_d2768b6f19b6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c404fdcf_0390_4b97_b81e_d139b67e859c"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_09bd530a_1dae_4aae_8240_1dc6c1b3c397"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f9f7f703_ce59_4168_944e_ffab2556aef7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1593b464_867e_43f2_8970_dff9e3f295f5"/>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2afec30f_3b44_4d20_88a3_ba246f13e93b"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_36d5aff1_f0c1_4991_b92b_a1d17275a703"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_52c12e39_fb0c_4f53_a2fd_2c074ab9b412"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_658a8df6_c5da_4751_b4b3_be34bd356b89"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8539f6d8_08be_41a7_aed4_b689346530c1"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_87d4bdc3_f8e6_411c_bf16_9157a6dc1f6f"/>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_afb62c2a_d48f_44f7_af6e_79a6a5350c9a"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b93c4bbe_d03d_46e0_87c5_fb743aa3a099"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_bb03a368_4b9d_42c4_a5ae_fc24f27e419b"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c404fdcf_0390_4b97_b81e_d139b67e859c"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c7d2222d_7074_4bf9_bb1e_5ab08cd12343"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d987a24b_f27d_446b_99e3_18aea9eb6aa6"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f9f7f703_ce59_4168_944e_ffab2556aef7"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_1593b464_867e_43f2_8970_dff9e3f295f5"/>
+        <Class IRI="#OWLClass_87d4bdc3_f8e6_411c_bf16_9157a6dc1f6f"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_36d5aff1_f0c1_4991_b92b_a1d17275a703"/>
+        <Class IRI="#OWLClass_afb62c2a_d48f_44f7_af6e_79a6a5350c9a"/>
+        <Class IRI="#OWLClass_c404fdcf_0390_4b97_b81e_d139b67e859c"/>
+        <Class IRI="#OWLClass_d987a24b_f27d_446b_99e3_18aea9eb6aa6"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+        <Class IRI="#OWLClass_cad36294_ba5f_4a4d_85a6_e781fd409fc0"/>
+        <Class IRI="#OWLClass_fb152b91_f47c_44c8_9ef0_c71c91f8d43f"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_52c12e39_fb0c_4f53_a2fd_2c074ab9b412"/>
+        <Class IRI="#OWLClass_c7d2222d_7074_4bf9_bb1e_5ab08cd12343"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_b93c4bbe_d03d_46e0_87c5_fb743aa3a099"/>
+        <Class IRI="#OWLClass_f9f7f703_ce59_4168_944e_ffab2556aef7"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_17481d08_f09b_4956_8e17_f0442351ccbb"/>
+        <ObjectProperty IRI="#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba"/>
+        <ObjectProperty IRI="#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_c67121ae_fd80_4d67_a9ac_21e2f8401c33"/>
+        <ObjectProperty IRI="#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9"/>
+        <ObjectProperty IRI="#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_09bd530a_1dae_4aae_8240_1dc6c1b3c397"/>
+        <ObjectProperty IRI="#OWLObjectProperty_7f87a3a5_2c01_4037_abeb_d20602f60c38"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_1131a436_ee9b_44ef_9656_9dcf4c3dd847"/>
+        <ObjectProperty IRI="#OWLObjectProperty_bf55b791_8245_46a0_b29b_a23e04f89c8b"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_17481d08_f09b_4956_8e17_f0442351ccbb"/>
+        <ObjectProperty IRI="#OWLObjectProperty_c67121ae_fd80_4d67_a9ac_21e2f8401c33"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_1a33b406_5dc0_4f5c_9fc5_e4edb4ca76fb"/>
+        <ObjectProperty IRI="#OWLObjectProperty_273f59f6_ba48_4b7e_a62f_8c57fdfc4734"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b"/>
+        <ObjectProperty IRI="#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba"/>
+        <ObjectProperty IRI="#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_63556802_6897_4965_b231_ce0e287ac68d"/>
+        <ObjectProperty IRI="#OWLObjectProperty_86d00484_365a_4bbe_b69c_c1049443001c"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511"/>
+        <ObjectProperty IRI="#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_1131a436_ee9b_44ef_9656_9dcf4c3dd847"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_bf55b791_8245_46a0_b29b_a23e04f89c8b"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_09bd530a_1dae_4aae_8240_1dc6c1b3c397"/>
+        <Class IRI="#OWLClass_36d5aff1_f0c1_4991_b92b_a1d17275a703"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_1131a436_ee9b_44ef_9656_9dcf4c3dd847"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_17481d08_f09b_4956_8e17_f0442351ccbb"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_1a33b406_5dc0_4f5c_9fc5_e4edb4ca76fb"/>
+        <Class IRI="#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_1a33b406_5dc0_4f5c_9fc5_e4edb4ca76fb"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_273f59f6_ba48_4b7e_a62f_8c57fdfc4734"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba"/>
+        <Class IRI="#OWLClass_52c12e39_fb0c_4f53_a2fd_2c074ab9b412"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_63556802_6897_4965_b231_ce0e287ac68d"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511"/>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_7f87a3a5_2c01_4037_abeb_d20602f60c38"/>
+        <Class IRI="#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_86d00484_365a_4bbe_b69c_c1049443001c"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_928e5494_1279_4223_a1f8_d2768b6f19b6"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_bf55b791_8245_46a0_b29b_a23e04f89c8b"/>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_c67121ae_fd80_4d67_a9ac_21e2f8401c33"/>
+        <Class IRI="#OWLClass_c7d2222d_7074_4bf9_bb1e_5ab08cd12343"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9"/>
+        <Class IRI="#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d"/>
+        <Class IRI="#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_09bd530a_1dae_4aae_8240_1dc6c1b3c397"/>
+        <Class IRI="#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_1131a436_ee9b_44ef_9656_9dcf4c3dd847"/>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_17481d08_f09b_4956_8e17_f0442351ccbb"/>
+        <Class IRI="#OWLClass_c7d2222d_7074_4bf9_bb1e_5ab08cd12343"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_1a33b406_5dc0_4f5c_9fc5_e4edb4ca76fb"/>
+        <Class IRI="#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_273f59f6_ba48_4b7e_a62f_8c57fdfc4734"/>
+        <Class IRI="#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_273f59f6_ba48_4b7e_a62f_8c57fdfc4734"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba"/>
+        <Class IRI="#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_63556802_6897_4965_b231_ce0e287ac68d"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511"/>
+        <Class IRI="#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_7f87a3a5_2c01_4037_abeb_d20602f60c38"/>
+        <Class IRI="#OWLClass_36d5aff1_f0c1_4991_b92b_a1d17275a703"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_86d00484_365a_4bbe_b69c_c1049443001c"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_928e5494_1279_4223_a1f8_d2768b6f19b6"/>
+        <Class IRI="#OWLClass_cad36294_ba5f_4a4d_85a6_e781fd409fc0"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_bf55b791_8245_46a0_b29b_a23e04f89c8b"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_c67121ae_fd80_4d67_a9ac_21e2f8401c33"/>
+        <Class IRI="#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9"/>
+        <Class IRI="#OWLClass_52c12e39_fb0c_4f53_a2fd_2c074ab9b412"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d"/>
+        <Class IRI="#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_5d16aebb_73b7_4cb4_965f_7c2b3234fffd"/>
+        <Class IRI="#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenName"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_5d16aebb_73b7_4cb4_965f_7c2b3234fffd"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/givenName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1593b464_867e_43f2_8970_dff9e3f295f5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OutPatient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2afec30f_3b44_4d20_88a3_ba246f13e93b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Radiologist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_36d5aff1_f0c1_4991_b92b_a1d17275a703</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ward</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_460d10e0_6bf3_480a_a601_283e7745eb58</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_52c12e39_fb0c_4f53_a2fd_2c074ab9b412</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_643d39f5_ef76_410e_be71_55ff0b49be4d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Administrator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_658a8df6_c5da_4751_b4b3_be34bd356b89</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anaesthetist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_66186ba1_7cc6_487f_aa11_23f3a9858bc1</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6bbbe19e_342a_408b_9a88_2f06aa29fe17</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MedicalStaff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_74545188_2fea_45f8_a6c8_569f1db39a48</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8539f6d8_08be_41a7_aed4_b689346530c1</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Physician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_87d4bdc3_f8e6_411c_bf16_9157a6dc1f6f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InPatient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a940a814_29c1_4d93_a489_5f8e9210a57d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Room</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_afb62c2a_d48f_44f7_af6e_79a6a5350c9a</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ConsultingRoom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_b93c4bbe_d03d_46e0_87c5_fb743aa3a099</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_bb03a368_4b9d_42c4_a5ae_fc24f27e419b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nurse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c404fdcf_0390_4b97_b81e_d139b67e859c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c7d2222d_7074_4bf9_bb1e_5ab08cd12343</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Department</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_cad36294_ba5f_4a4d_85a6_e781fd409fc0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d987a24b_f27d_446b_99e3_18aea9eb6aa6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OperatingTheatre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f9f7f703_ce59_4168_944e_ffab2556aef7</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Consultation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_fb152b91_f47c_44c8_9ef0_c71c91f8d43f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MedicalSpeciality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_5d16aebb_73b7_4cb4_965f_7c2b3234fffd</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_09bd530a_1dae_4aae_8240_1dc6c1b3c397</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">containsBed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_1131a436_ee9b_44ef_9656_9dcf4c3dd847</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPatient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_17481d08_f09b_4956_8e17_f0442351ccbb</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDepartmentEmployer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_1a33b406_5dc0_4f5c_9fc5_e4edb4ca76fb</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isAssignedToRoom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_1a3eb0a9_6476_42d1_993c_e0c7a96e081b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasEmployer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_273f59f6_ba48_4b7e_a62f_8c57fdfc4734</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasAssignedStaff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_47634d10_8d16_4413_a78f_0f6d24da67ba</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasEmployeeHospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_63556802_6897_4965_b231_ce0e287ac68d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasStaff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_7ec95652_9d75_443e_a0ee_f61da8247511</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasBed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_7f87a3a5_2c01_4037_abeb_d20602f60c38</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isInWard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_86d00484_365a_4bbe_b69c_c1049443001c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">didProcedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_928e5494_1279_4223_a1f8_d2768b6f19b6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasBuilding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_bf55b791_8245_46a0_b29b_a23e04f89c8b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hadProcedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_c67121ae_fd80_4d67_a9ac_21e2f8401c33</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasEmployeeDepartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_cc2f73e4_739e_4970_9694_76947ab1b62d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasEmployee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_df0bf7c8_7dd2_49d1_a214_db8186a953f9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasHospitalEmployer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_f646589c_d3d4_4cc3_a957_802150ac2d1d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasOccupant</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
